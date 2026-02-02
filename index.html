@@ -2,22 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Moved Permanently</title>
 
-  <!-- Instant redirect -->
-  <meta http-equiv="refresh" content="0; url=https://kakhramonov99.github.io/cv/" />
-
-  <!-- SEO signals -->
+  <!-- Strong SEO signal -->
   <link rel="canonical" href="https://kakhramonov99.github.io/cv/" />
   <meta name="robots" content="noindex, follow" />
 
+  <!-- Instant redirect (no flash) -->
+  <script>
+    window.location.replace("https://kakhramonov99.github.io/cv/");
+  </script>
+
+  <!-- Fallback for bots -->
+  <meta http-equiv="refresh" content="0; url=https://kakhramonov99.github.io/cv/" />
 </head>
-<body>
-  <p>
-    This site has permanently moved to
-    <a href="https://kakhramonov99.github.io/cv/">
-      https://kakhramonov99.github.io/cv/
-    </a>
-  </p>
-</body>
+
+<body style="display:none;"></body>
 </html>
